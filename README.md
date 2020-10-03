@@ -14,6 +14,6 @@ First, register at ![hacktoberfest.digitalocean.com](https://hacktoberfest.digit
 Are you maintaining a repo? Create issues or label existing ones with **Hacktoberfest** on your GitHub projects to help new contributors know what to work on. Tag any spam or irrelevant pull requests with the **invalid** label to disqualify them.
 
 
-### How do I track my progress?
+### How to track your progress?
 
 Log in with your **GitHub** account at ![hacktoberfest.digitalocean.com](hacktoberfest.digitalocean.com) to check your progress and stats.
