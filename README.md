@@ -9,11 +9,11 @@ You can contribute any piece of code in any language you're comfortable in to th
 
 ### How to get started with Hacktober
 
-First, register at ![hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com/). Then, submit at least four pull requests to any public GitHub repository. You can look for open issues labeled **Hacktoberfest** for inspiration. Quality contributions are encouraged!
+First, register at [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com/). Then, submit at least four pull requests to any public GitHub repository. You can look for open issues labeled **Hacktoberfest** for inspiration. Quality contributions are encouraged!
 
 Are you maintaining a repo? Create issues or label existing ones with **Hacktoberfest** on your GitHub projects to help new contributors know what to work on. Tag any spam or irrelevant pull requests with the **invalid** label to disqualify them.
 
 
 ### How to track your progress?
 
-Log in with your **GitHub** account at ![hacktoberfest.digitalocean.com](hacktoberfest.digitalocean.com) to check your progress and stats.
+Log in with your **GitHub** account at [hacktoberfest.digitalocean.com](hacktoberfest.digitalocean.com) to check your progress and stats.
