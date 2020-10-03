@@ -1,4 +1,4 @@
-# Hactober-CP-contributions
+# Hacktober Competitive Programmming Contributions
 
 ### Guidelines for contributions
 Kindly upload your codes by putting into a seperate folder/repo.
