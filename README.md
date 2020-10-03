@@ -2,9 +2,7 @@
 
 ### || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||
 <br>
-
-<img align="left" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif" width="550" height="400"/>
-<br>
+<img align="left" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif" width="400" height="300"/>
 
 ### Guidelines for contributions >
 Kindly upload your codes by putting into a seperate folder/repo.
