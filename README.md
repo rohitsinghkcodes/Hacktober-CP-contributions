@@ -1,6 +1,10 @@
 # Hacktober Competitive Programmming Contributions
 
-## || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||
+### || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||
+<br>
+
+<img align="left" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif" width="550" height="400"/>
+<br>
 
 ### Guidelines for contributions >
 Kindly upload your codes by putting into a seperate folder/repo.
@@ -8,6 +12,8 @@ The name of the folder/repo should be the topic name or your name (In case you w
 
 ### Why it is amazing >
 You can contribute any piece of code in any language you're comfortable in to this repository, it could be anything from a simple CP problem solution to some dynamic approach problems. You can go as wild as you can be in this concern.
+
+<br>
 
 ### How to get started with Hacktober >
 
