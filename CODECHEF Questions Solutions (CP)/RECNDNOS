@@ -1,0 +1,27 @@
+t = int(input())
+while t > 0:
+	n = int(input())
+	l = list(map(int, input().split()))
+	x = list(set(l))
+	x.sort()
+	haha = []
+	for i in x:
+		count = 0
+		flag = 0
+		for j in range(n):
+			if l[j] == i:
+				if flag == 0:
+					flag = 1
+					count += 1
+				else:
+					flag = 0
+			else:
+				flag = 0
+		haha.append(count)
+	abc = max(haha)
+	for i in range(len(haha)):
+		if abc == haha[i]:
+			abc = x[i]
+			break
+	print(abc)
+	t -= 1

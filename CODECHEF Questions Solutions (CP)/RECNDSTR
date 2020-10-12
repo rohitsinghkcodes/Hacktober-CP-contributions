@@ -1,0 +1,13 @@
+t = int(input())
+while t > 0:
+	x = input()
+	y = x[1:] + x[0]
+	z = x[len(x) - 1] + x[:len(x) - 1]
+	flag = 0
+	if y == z:
+		flag = 1
+	if flag == 1:
+		print("YES")
+	else:
+		print("NO")
+	t -= 1
