@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <malloc.h>
+void func();
+long long int cmp(const void * a, const void * b)
+{
+	return (*(long long int*)a - *(long long int*)b);
+}
+int main()
+{
+	int t;
+	scanf("%d", &t);
+	while(t > 0)
+	{
+		func();
+		t--;
+	}
+	return 0;
+}
+void func()
+{
+	long long int n, *a, *b, i, sum = 0;
+	scanf("%lld", &n);
+	a = (long long int * )malloc(sizeof(long long int) * n);
+	b = (long long int * )malloc(sizeof(long long int) * n);
+	for(i = 0; i < n; i++)
+		scanf("%lld", &a[i]);
+	for(i = 0; i < n; i++)
+		scanf("%lld", &b[i]);
+	qsort(a, n, sizeof(long long int), cmp);
+	qsort(b, n, sizeof(long long int), cmp);
+	for(i = 0; i < n; i++)
+	{
+		if(a[i] < b[i])
+			sum += a[i];
+		else
+			sum += b[i];
+	}
+	printf("%lld\n", sum);
+}

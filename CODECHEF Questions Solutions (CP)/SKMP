@@ -1,0 +1,42 @@
+t = int(input())
+while t > 0:
+	s = input()
+	p = input()
+	a = [0 for i in range(26)]
+	for i in s:
+		a[ord(i) - 97] += 1
+	for i in p:
+		a[ord(i) - 97] -= 1
+	x = ""
+	for i in range(26):
+		x = x + chr(i + 97) * a[i]
+	s = x
+	a = ""
+	b = ""
+	flag = 0
+	lala = 0
+	for i in range(len(s)):
+		if s[i] > p[0] and lala == 0:
+			b = s[:i] + p + s[i:]
+			lala = 1
+		if s[i] == p[0] and flag == 0:
+			flag = 1
+			a = s[:i] + p + s[i:]
+		if lala == 1 and flag == 1:
+			break
+	if flag == 0:
+		a = s + p
+	if lala == 0:
+		b = s + p
+	if a < b:
+		if a != "":
+			print(a)
+		else:
+			print(b)
+	else:
+		if b != "":
+			print(b)
+		else:
+			print(a)
+	t -= 1
+
