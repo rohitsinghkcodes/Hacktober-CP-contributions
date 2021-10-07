@@ -1,7 +1,15 @@
 # Hacktober Competitive Programmming Contributions
 
-### || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||
+### || STAR || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||<br>
+
+### STEPS TO FOLLOW>
+
+⭐ Star the repository<br>
+⭐ Fork the repository<br>
+⭐ Upload(push) your project<br>
+⭐ Open PR with relevant commits
 <br>
+
 <img align="left" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif" width="450" height="350"/>
 
 ### Guidelines for contributions >
