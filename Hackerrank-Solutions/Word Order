@@ -1,0 +1,15 @@
+#HackerRank Solutions
+#Python Word order problem
+
+
+from collections import Counter
+no=int(input());
+lst=[];
+dic={};
+for i in range (0,no) :
+    str=input();
+    lst.append(str);
+dic=Counter(lst);
+print(len(dic));
+for i in dic.values():
+    print(i,end=" ");
